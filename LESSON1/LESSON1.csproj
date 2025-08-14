@@ -65,6 +65,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -78,6 +79,54 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\adobo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menudo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lechon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lumpie.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sinigang.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sinigang1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sisig.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kare kare.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pancit.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\beef nilaga.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bicol express.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bbq.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pork Siomai.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kaldereta.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pinakbet.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tinola.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

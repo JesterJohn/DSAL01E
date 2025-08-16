@@ -103,6 +103,16 @@ namespace LESSON1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap giniling {
+            get {
+                object obj = ResourceManager.GetObject("giniling", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap kaldereta {
             get {
                 object obj = ResourceManager.GetObject("kaldereta", resourceCulture);
@@ -143,9 +153,29 @@ namespace LESSON1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap mechado {
+            get {
+                object obj = ResourceManager.GetObject("mechado", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap menudo {
             get {
                 object obj = ResourceManager.GetObject("menudo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap monggo {
+            get {
+                object obj = ResourceManager.GetObject("monggo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -166,6 +196,16 @@ namespace LESSON1.Properties {
         internal static System.Drawing.Bitmap pinakbet {
             get {
                 object obj = ResourceManager.GetObject("pinakbet", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pochero {
+            get {
+                object obj = ResourceManager.GetObject("pochero", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -206,6 +246,16 @@ namespace LESSON1.Properties {
         internal static System.Drawing.Bitmap sisig {
             get {
                 object obj = ResourceManager.GetObject("sisig", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sopas {
+            get {
+                object obj = ResourceManager.GetObject("sopas", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

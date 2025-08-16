@@ -137,5 +137,20 @@
   <ItemGroup>
     <None Include="Resources\tinola.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mechado1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sopas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\giniling.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\monggo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pochero.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

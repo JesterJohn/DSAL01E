@@ -51,5 +51,21 @@ namespace LESSON1
         {
 
         }
+
+        private void pictureBox11_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label26_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Activity2_Load(object sender, EventArgs e)
+        {
+            itemnametxtbox.Enabled = false;
+
+        }
     }
 }

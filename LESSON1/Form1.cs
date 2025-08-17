@@ -16,98 +16,98 @@ namespace LESSON1
         {
             InitializeComponent();
         }
-
+        // Code for inserting or assigning a value to the Text property of a texbox 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             itemnameTextbox.Text = "Adobo";
             priceTxtbox.Text = "120";
         }
-
+        // Code for inserting or assigning a value to the Text property of a texbox 
         private void pictureBox4_Click(object sender, EventArgs e)
         {
             itemnameTextbox.Text = "Menudo";
             priceTxtbox.Text = "150";
 
         }
-
+        // Code for inserting or assigning a value to the Text property of a texbox 
         private void pictureBox5_Click(object sender, EventArgs e)
         {
             itemnameTextbox.Text = "Shanghai";
             priceTxtbox.Text = "80";
         }
-
+        // Code for inserting or assigning a value to the Text property of a texbox 
         private void pictureBox6_Click(object sender, EventArgs e)
         {
             itemnameTextbox.Text = "Lechon Baboy";
             priceTxtbox.Text = "150";
         }
-
+        // Code for inserting or assigning a value to the Text property of a texbox 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
             itemnameTextbox.Text = "Sinigang";
             priceTxtbox.Text = "100";
         }
-
+        // Code for inserting or assigning a value to the Text property of a texbox 
         private void pictureBox7_Click(object sender, EventArgs e)
         {
             itemnameTextbox.Text = "Pork Sisig";
             priceTxtbox.Text = "85";
         }
-
+        // Code for inserting or assigning a value to the Text property of a texbox 
         private void pictureBox8_Click(object sender, EventArgs e)
         {
             itemnameTextbox.Text = "Bicol Express";
             priceTxtbox.Text = "90";
         }
-
+        // Code for inserting or assigning a value to the Text property of a texbox 
         private void pictureBox9_Click(object sender, EventArgs e)
         {
             itemnameTextbox.Text = "Kare-Kare";
             priceTxtbox.Text = "110";
         }
-
+        // Code for inserting or assigning a value to the Text property of a texbox 
         private void pictureBox10_Click(object sender, EventArgs e)
         {
             itemnameTextbox.Text = "Pancit Bihon";
             priceTxtbox.Text = "70";
         }
-
+        // Code for inserting or assigning a value to the Text property of a texbox 
         private void pictureBox11_Click(object sender, EventArgs e)
         {
             itemnameTextbox.Text = "Beef Nilaga";
             priceTxtbox.Text = "120";
         }
-
+        // Code for inserting or assigning a value to the Text property of a texbox 
         private void pictureBox12_Click(object sender, EventArgs e)
         {
             itemnameTextbox.Text = "Pork Siomai";
             priceTxtbox.Text = "65";
         }
-
+        // Code for inserting or assigning a value to the Text property of a texbox 
         private void pictureBox13_Click(object sender, EventArgs e)
         {
             itemnameTextbox.Text = "Barbeque";
             priceTxtbox.Text = "50";
         }
-
+        // Code for inserting or assigning a value to the Text property of a texbox 
         private void pictureBox14_Click(object sender, EventArgs e)
         {
             itemnameTextbox.Text = "Kaldereta";
             priceTxtbox.Text = "120";
         }
-
+        // Code for inserting or assigning a value to the Text property of a texbox 
         private void pictureBox15_Click(object sender, EventArgs e)
         {
             itemnameTextbox.Text = "Tinola";
             priceTxtbox.Text = "100";
         }
-
+        // Code for inserting or assigning a value to the Text property of a texbox 
         private void pictureBox16_Click(object sender, EventArgs e)
         {
             itemnameTextbox.Text = "Pinakbet";
             priceTxtbox.Text = "110";
         }
-
+       
         private void itemnameTextbox_TextChanged(object sender, EventArgs e)
         {
 
@@ -117,16 +117,21 @@ namespace LESSON1
         {
 
         }
-
+        // Code for clearing or emptiying the value of the text property of a textbox 
         private void newBtn_Click(object sender, EventArgs e)
         {
             itemnameTextbox.Clear();
             priceTxtbox.Clear();
         }
-
+        // Code for closing the execution of the windows form application 
         private void exitBtn_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

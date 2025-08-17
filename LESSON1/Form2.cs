@@ -61,10 +61,41 @@ namespace LESSON1
         {
 
         }
-
+        // Codes for disabling the textboxes 
         private void Activity2_Load(object sender, EventArgs e)
         {
             itemnametxtbox.Enabled = false;
+            pricetextbox.Enabled = false;
+            discountedtxtbox.Enabled = false; 
+            qty_totaltxtbox.Enabled = false;
+            discount_totaltxtbox.Enabled = false;
+            discount_totaltxtbox.Enabled = false;
+            changetxtbox.Enabled = false;
+
+
+
+         //Codes for inserting name of the image inside of the label tool 
+            name1lbl.Text = "ADOBO";
+            name2lbl.Text = "MENUDO";
+            name3lbl.Text = "SHANGHAI";
+            name4lbl.Text = "LECHON";
+            name5lbl.Text = "SINIGANG";
+            name6lbl.Text = "MECHADO";
+            name7lbl.Text = "POCHERO";
+            name8lbl.Text = "SOPAS";
+            name9lbl.Text = "GINILING";
+            name10lbl.Text = "MONGGO";
+            name11lbl.Text = "PORK SISIG";
+            name12lbl.Text = "BICOL EXPRESS";
+            name13lbl.Text = "KARE - KARE";
+            name14lbl.Text = "PANCIT BIHON";
+            name15lbl.Text = "BEEF NILAGA";
+            name16lbl.Text = "PORK SIOMAI";
+            name17lbl.Text = "BARBEQUE";
+            name18lbl.Text = "KALDERETA";
+            name19lbl.Text = "TINOLA";
+            name20lbl.Text = "PINAKBET";
+
 
         }
     }
